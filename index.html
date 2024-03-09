@@ -1,0 +1,1550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>wiggle_wiggle</title>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/common.css">
+  <!--CSS common-->
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/eeb2143a41.js" crossorigin="anonymous"></script>
+  <!--fontawesome-->
+</head>
+
+<body>
+  <div class="wrap">
+    <!-- header -->
+    <header class="header">
+      <div class="headerInner clearfix">
+        <a href="index.html" class="logo"></a>
+        <div class="menu_wrap">
+          <ul class="menu">
+            <li><a href="">BRAND</a></li>
+            <li><a href="">NEW</a></li>
+            <li><a href="">ALL</a></li>
+            <li><a href="">PROTFOLIO</a></li>
+            <li><a href="">COMMUINITY</a></li>
+          </ul>
+        </div>
+        <div class="gnbSearchBg" style="display: none;"></div>
+        <div id="gnbSearchWrap" style="overflow: hidden;">
+          <form id="searchBarForm">
+            <input id="banner_action" name="banner_action" value="" type="hidden">
+            <div id="gnbSearch">
+              <fieldset>
+                <legend>Search</legend>
+                <input id="keyword" name="keyword" fw-label="검색어" class="inputTypeText" placeholder="Search"
+                  onblur="this.placeholder = 'Search'" onfocus="this.placeholder = ''" type="text">
+              </fieldset>
+            </div>
+          </form>
+          <button class="searchBtnClose">CLOSE</button>
+        </div>
+        <div class="side_menu_wrap">
+          <a href="#gnbSearchWrap" class="searchBtn" id="search">
+            <span>
+              <i class="fa-solid fa-magnifying-glass"></i>Wiggle Wiggle
+            </span>
+          </a>
+          <ul class="side_menu">
+            <li class="mobileonly newcart"><a href=""><i class="fa-solid fa-user"></i></a></li>
+            <li class="mobileonly newsearch"><a href="#gnbSearchWrap" id="search"><i
+                  class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+            <li><a href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
+            <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+          </ul>
+        </div>
+        <div class="mobileNavBg" style="display: none;"></div>
+        <div id="mobileNavWrap" style="overflow: hidden; width: 0%;">
+          <div id="mobileNavWrapInner" class="test" style="overflow-y: auto;">
+            <div id="moutilnavWrap" class="clearfix">
+              <ul class="clearfix ">
+                <li><a href="#"><span><i class="fa-solid fa-user"></i></span>Login</a></li>
+                <li><a href="#"><span><i class="fa-solid fa-bag-shopping"></i></span>Shopping basket</a></li>
+                <li><a href="#"><span><i class="fa-solid fa-heart"></i></span>Choose</a></li>
+              </ul>
+            </div>
+            <ul class="depth1">
+              <li>
+                <a href="#">BRAND</a>
+              </li>
+              <li>
+                <a href="#">NEW</a>
+              </li>
+              <li>
+                <a href="#">ALL</a>
+              </li>
+              <li>
+                <a href="#">PROTFOLIO</a>
+              </li>
+              <li>
+                <a href="#">COMMUINITY</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="mobileNavOpenBtn">
+          <div class="relativeHolder">
+            <span class="one"></span>
+            <span class="two"></span>
+            <span class="three"></span>
+          </div>
+        </div>
+        <div class="mobileNavCloseBtn"></div>
+      </div>
+    </header>
+    <!-- //header -->
+    <!-- mainslide -->
+    <section class="main_slide">
+      <div class="slide slide_wrap">
+        <div class="slide_item item1"><a href=""><img src="images/mainslide01.jpg" alt=""></a></div>
+        <div class="slide_item item2"><a href=""><img src="images/mainslide02.jpg" alt=""></a></div>
+        <div class="slide_item item3"><a href=""><img src="images/mainslide03.jpg" alt=""></a></div>
+        <div class="slide_item item4"><a href=""><img src="images/mainslide04.jpg" alt=""></a></div>
+        <div class="slide_item item5"><a href=""><img src="images/mainslide05.jpg" alt=""></a></div>
+        <div class="slide_item item6"><a href=""><img src="images/mainslide07.jpg" alt=""></a></div>
+        <div class="slide_prev_button slide_button">
+          <!--이전-->
+        </div>
+        <div class="slide_next_button slide_button">
+          <!--다음-->
+        </div>
+        <ul class="slide_pagination">
+          <li class="active">Let’s</li>
+          <li>have fun</li>
+          <li>in our</li>
+          <li>normal</li>
+          <li>daily</li>
+          <li>lives!</li>
+        </ul>
+      </div>
+      <div class="ani_line">
+        <img src="images/dotline.png" alt="">
+        <span class="ani"></span>
+      </div>
+    </section>
+  </div>
+
+  <!-- //mainslide -->
+  <section class="main_content">
+    <div class="main_contentInner">
+      <div class="main_tit">
+        <h2>
+          WIGGLE WIGGLE <br> STAYLEING
+        </h2>
+        <p>
+          How about changing your life with full of fun
+          by <br> unique designs of Wiggle Wiggle?
+        </p>
+      </div>
+      <div class="content_wrap">
+        <div class="cont_box">
+          <div class="check_conWrap">
+            <img src="images/main_content/check.png" alt="">
+            <div class="check_con">
+              <figure class="check_con_main">
+                <img class="back garden" src="images/main_content/Smile-Garden.png" alt="">
+                <img class="main" src="images/main_content/main1.png" alt="">
+                <img class="front garden" src="images/main_content/Smile-Garden.png" alt="">
+                <span>Smile Garden</span>
+              </figure>
+            </div>
+            <figure class="heart_con">
+              <img src="images/main_content/heart2.png" alt="">
+            </figure>
+            <div class="shirt_con">
+              <figure class="shirt_conWrap">
+                <img class="shirt" src="images/main_content/shirt.png" alt="">
+                <img class="arrow" src="images/main_content/arrow2.png" alt="">
+                <div class="txt_box">
+                  <p>Waffle Collar Tee <br>Blue Green</p>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+              </figure>
+            </div>
+            <div class="onepiece_con">
+              <figure class="onepiece_conWrap">
+                <img class="onepiece" src="images/main_content/onepiece.png" alt="">
+                <img class="arrow" src="images/main_content/arrow3.png" alt="">
+                <div class="txt_box">
+                  <p>Sleeveless Knit Dress <br>Skyblue</p>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+              </figure>
+            </div>
+            <div class="shose_con">
+              <figure class="shose_conWrap">
+                <img class="shose" src="images/main_content/Shoes.png" alt="">
+                <img class="arrow" src="images/main_content/arrow1.png" alt="">
+                <div class="txt_box">
+                  <p>Sleeveless Knit Dress <br>Skyblue</p>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+              </figure>
+            </div>
+          </div>
+          <div class="prd_conWrap">
+            <div class="prd_con">
+              <figure class="prd_dress">
+                <img src="images/main_content/prd1-3.png" alt="">
+                <div class="txt_box">
+                  <span>FASHION - Dress</span>
+                  <p>Sleeveless Knit Dress<br>Skyblue</p>
+                </div>
+              </figure>
+              <figure class="prd_bag">
+                <img src="images/main_content/prd2-1.png" alt="">
+                <div class="txt_box">
+                  <span>FASHION - Backpack</span>
+                  <p>Funky backpack<br>Mustard</p>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main_con_slide">
+        <div class="con_slide_tit">
+          <h3>#STYLING</h3>
+        </div>
+        <div class="con_slide_wrap">
+          <div class="styling_box">
+            <img src="images/main_content/styling0.jpg" alt="">
+            <div class="styling_box_bg"></div>
+            <div class="styling_txt">
+              <h4># 새학기 스타일링</h4>
+              <p>새 학기 백팩을 활용한 스타일링</p>
+            </div>
+          </div>
+          <div class="styling_box">
+            <img src="images/main_content/styling1.jpg" alt="">
+            <div class="styling_box_bg"></div>
+            <div class="styling_txt">
+              <h4># Spring Daily Look</h4>
+              <p>화사한 봄맞이 데일리 룩</p>
+            </div>
+          </div>
+          <div class="styling_box">
+            <img src="images/main_content/styling2.jpg" alt="">
+            <div class="styling_box_bg"></div>
+            <div class="styling_txt">
+              <h4># '봄'캉스 스타일링</h4>
+              <p>봄캉스 맞이 뭘 입고 갈까?</p>
+            </div>
+          </div>
+          <div class="styling_box">
+            <img src="images/main_content/styling3.jpg" alt="">
+            <div class="styling_box_bg"></div>
+            <div class="styling_txt">
+              <h4># Home Party Look</h4>
+              <p>컬러가 돋보이는 홈파티 패션 </p>
+            </div>
+          </div>
+          <div class="styling_box">
+            <img src="images/main_content/styling4.jpg" alt="">
+            <div class="styling_box_bg"></div>
+            <div class="styling_txt">
+              <h4># Colorful Robe</h4>
+              <p>나만의 스타일의 로브를 입어볼까?</p>
+            </div>
+          </div>
+          <div class="styling_box">
+            <img src="images/main_content/styling5.jpg" alt="">
+            <div class="styling_box_bg"></div>
+            <div class="styling_txt">
+              <h4># Pajamas Look</h4>
+              <p>귀여우면서 편안한 파자마 스타일</p>
+            </div>
+          </div>
+          <div class="styling_box">
+            <img src="images/main_content/styling6.jpg" alt="">
+            <div class="styling_box_bg"></div>
+            <div class="styling_txt">
+              <h4># 로브의 다양한 변신?!</h4>
+              <p>편안한 로브를 다양하게 활용한 스타일링</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="new_item sec01">
+    <div class="tit_wrap">
+      <span></span>
+      <div class="txt">
+        <div class="logo">wiggle wiggle</div>
+        <h3>NEW ITEM</h3>
+      </div>
+      <span></span>
+    </div>
+    <i class="fa-solid fa-chevron-left prev new"></i>
+    <!--prev-->
+    <i class="fa-solid fa-chevron-right next new"></i>
+    <!--next-->
+    <div class="con_wrap">
+      <div class="prd_wrap" id="new_slide_wrap">
+        <div class="prd">
+          <div class="prd_img">
+            <img src="images/new_produte1.jpg" alt="">
+          </div>
+          <div class="prd_txt">
+            <a href="" class="prd_name">
+              <h3>벨리곰X위글위글 실리콘참(S) - 2종 SET</h3>
+              <p>귀염 뽀짝한 참들을 신발에 착!</p>
+              <p class="price"><span>9,700원</span>8,700원</p>
+            </a>
+          </div>
+        </div>
+        <div class="prd">
+          <div class="prd_img">
+            <img src="images/new_produte2.jpg" alt="">
+          </div>
+          <div class="prd_txt">
+            <a href="" class="prd_name">
+              <h3>빅그립톡 투명케이스 SET - Fruits Jelly</h3>
+              <p>귀엽고 유니크한 케이스를 끼고 거울샷찍어야지!</p>
+              <p class="price"><span>38,000원</span>25,800원</p>
+            </a>
+          </div>
+        </div>
+        <div class="prd">
+          <div class="prd_img">
+            <img src="images/new_produte3.jpg" alt="">
+          </div>
+          <div class="prd_txt">
+            <a href="" class="prd_name">
+              <h3>빅그립톡 - Couch Potato</h3>
+              <p>안정적이고 편안한 그립감위 빅사이즈 그립톡</p>
+              <p class="price"><span>16,800원</span>15,900원</p>
+            </a>
+          </div>
+        </div>
+        <div class="prd">
+          <div class="prd_img">
+            <img src="images/new_produte4.png" alt="">
+          </div>
+          <div class="prd_txt">
+            <a href="" class="prd_name">
+              <h3>캣 스크래처 - Smile Garden</h3>
+              <p>우리집 냥이가 좋아하면 나도 좋아..</p>
+              <p class="price"><span>10,800원</span>9,700원</p>
+            </a>
+          </div>
+        </div>
+        <div class="prd">
+          <div class="prd_img">
+            <img src="images/new_produte5.jpg" alt="">
+          </div>
+          <div class="prd_txt">
+            <a href="" class="prd_name">
+              <h3>발매트 - Forest</h3>
+              <p>우리집의 분위기를 살려주는 이 녀석!</p>
+              <p class="price"><span>19,800원</span>18,800원</p>
+            </a>
+          </div>
+        </div>
+        <div class="prd">
+          <div class="prd_img">
+            <img src="images/new_produte6.jpg" alt="">
+          </div>
+          <div class="prd_txt">
+            <a href="" class="prd_name">
+              <h3>락앤락 스윙 텀블러 위글위글 에디션</h3>
+              <p>믿고 쓰는 락앤락에 위글위글을 더 했다?!</p>
+              <p class="price"><span>29,800원</span>28,300원</p>
+            </a>
+          </div>
+        </div>
+        <div class="prd">
+          <div class="prd_img">
+            <img src="images/new_produte7.jpg" alt="">
+          </div>
+          <div class="prd_txt">
+            <a href="" class="prd_name">
+              <h3>소프트키링 - Smile We Love</h3>
+              <p>평범한 물건을 귀여운 물건으로 바뀌는 마법</p>
+              <p class="price"><span>19,800원</span>18,800원</p>
+            </a>
+          </div>
+        </div>
+        <div class="prd">
+          <div class="prd_img">
+            <img src="images/new_produte8.jpg" alt="">
+          </div>
+          <div class="prd_txt">
+            <a href="" class="prd_name">
+              <h3>테리 홈슬리퍼 - Twin bears</h3>
+              <p>부드럽고 따스한 홈슬리퍼로 일상을 따뜻하게</p>
+              <p class="price"><span>19,800원</span>18,800원</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="sec_button"><a href="#">View more</a></button>
+  </section>
+
+
+  <section class="banner01 sec02">
+    <figure class="banner01_img">
+      <div class="txt_wrap">
+        <h2>wiggle wiggle BEST Products</h2>
+        <p>
+          Sometimes life feels boring because of the
+          frequent repetition. <br> Wiggle Wiggle started
+          with a simple question that “Isn’t there anything
+          that repeats and is also funny?” <br>
+          <span>
+            How about changing your life with full of fun
+            by unique designs of Wiggle Wiggle?
+          </span>
+        </p>
+      </div>
+    </figure>
+  </section>
+  <section class="best_item sec01">
+    <div class="tit_wrap">
+      <span></span>
+      <div class="txt">
+        <div class="logo">wiggle wiggle</div>
+        <h3>BEST ITEM</h3>
+      </div>
+      <span></span>
+    </div>
+    <ul class="tab_links">
+      <li class="active">
+        <a href="#life" class="tab_btn">LIFE</a>
+      </li>
+      <li>
+        <a href="#sports" class="tab_btn">SPORTS</a>
+      </li>
+      <li>
+        <a href="#fashion" class="tab_btn">FASHION</a>
+      </li>
+      <li>
+        <a href="#tech" class="tab_btn">TECH</a>
+      </li>
+      <li>
+        <a href="#pet" class="tab_btn">PET</a>
+      </li>
+      <li>
+        <a href="#collabo" class="tab_btn">COLLABO</a>
+      </li>
+    </ul>
+    <div class="tab_content_wrap">
+      <div id="life" class="tab_content tab01" style="display: block;">
+        <div class="con_wrap swiper-container">
+          <div class="swiper-button-prev life">
+            <i class="fa-solid fa-chevron-left prev"></i>
+          </div>
+          <div class="swiper-button-next life">
+            <i class="fa-solid fa-chevron-right next"></i>
+          </div>
+          <div class="tab swiper-wrapper">
+            <div class="prd swiper-slide">
+              <img src="images/life1.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>우드 장우산 - Popcorn Flower</h3>
+                  <p>비오는 날 만 손 꼽아 기다리게되는 마법
+                  </p>
+                  <p class="price"><span>35,000원</span>29,700원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/party4.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>해피 캔들 - Smile We Love_B</h3>
+                  <p>파티의 화룡점점은 귀여운 촛불! 다같이 촛불 끄자!!</p>
+                  <p class="price"><span>4,800원</span>3,900원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/life3.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>주차번호판 - Teddy Bear</h3>
+                  <p>밋밋한 주차번호판은 가라! 이제 귀여운 주차번호판과 함께!</p>
+                  <p class="price"><span>28,900원</span>27,100원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/party3.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>리유저블 파티컵 세트 - Smile We Love</h3>
+                  <p>야외에서도 파티를 즐길 수 있다고?</p>
+                  <p class="price"><span>14,900원</span>13,400원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/life4.jpg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>와인 마개 - Smile We Love</h3>
+                  <p>이제 남는 와인 버리지 마세요. 보관하세요</p>
+                  <p class="price"><span>11,900원</span>11,100원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/life5.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>리무버블 데코 스티커</h3>
+                  <p>다양한 곳에 붙여 여러분의 센스를 보여주세요!</p>
+                  <p class="price"><span>2,500원</span>1,700원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/life6.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>손톱깎이 세트 - Smile We Love</h3>
+                  <p>이렇게 귀여운 손톱깎이 세트 본적 있나요?!</p>
+                  <p class="price"><span>16,900원</span>16,000원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/life7.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>글라스락X위글위글 유리컵</h3>
+                  <p>어떤 음료를 담아도 특별해보일거에요</p>
+                  <p class="price"><span>17,800원</span>16,900원</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="sports" class="tab_content tab02">
+        <div class="con_wrap swiper-container">
+          <div class="swiper-button-prev sports">
+            <i class="fa-solid fa-chevron-left prev"></i>
+          </div>
+          <div class="swiper-button-next sports">
+            <i class="fa-solid fa-chevron-right next"></i>
+          </div>
+          <div class="tab swiper-wrapper">
+            <div class="prd swiper-slide">
+              <img src="images/sports1.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>골프 스타터 팩 - Smile We Love</h3>
+                  <p>골프 입문자를 위한 A TO Z골린이 패키지</p>
+                  <p class="price"><span>323,000d원</span>197,000원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/sports2.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>퍼터 커버 - Smile We Love</h3>
+                  <p>피터 클럽을 안전하게 보호해주는 귀여운 커버</p>
+                  <p class="price"><span>32,000원</span>28,800원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/sports3.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>우드 커버 - Smile We Love</h3>
+                  <p>우드 클럽을 안전하게 보호해주는 귀여운 커버</p>
+                  <p class="price"><span>43,800원</span>39,400원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/sports4.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>골프우산 - Cotton Candy</h3>
+                  <p>캐리백이 포함된 빅사이즈 골프우산</p>
+                  <p class="price"><span>45,000원</span>40,500원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/sports5.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>스포츠 밴드 - Smile We Love</h3>
+                  <p>운동 시 손목을 보호해주고 땀을 닦을 수 있는 스포츠 밴드</p>
+                  <p class="price">7,500원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/sports6.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>쿠션 양말 - Color Palette</h3>
+                  <p>캐주얼한 스타일링은 물론 스포트룩에도 okay!</p>
+                  <p class="price"><span>12,800원</span>11,500원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/sports7.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>티홀더세트 - Wiggle Bear</h3>
+                  <p>위글위글 시그니처 캐릭터가 더해진 골프 티홀더 세트</p>
+                  <p class="price"><span>15,000원</span>13,500원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/sports8.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>골프백커버 - Checkerboard</h3>
+                  <p>골프백 커버로 딱이야!</p>
+                  <p class="price"><span>39,000원</span>35,100원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/sports9.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>티홀더세트 - Kitten</h3>
+                  <p>위글위글 시그니처 캐릭터가 더해진 골프 티홀더 세트</p>
+                  <p class="price"><span>15,000원</span>13,500원</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="fashion" class="tab_content tab03">
+        <div class="con_wrap swiper-container">
+          <div class="swiper-button-prev fashion">
+            <i class="fa-solid fa-chevron-left prev"></i>
+          </div>
+          <div class="swiper-button-next fashion">
+            <i class="fa-solid fa-chevron-right next"></i>
+          </div>
+          <div class="tab swiper-wrapper">
+            <div class="prd swiper-slide">
+              <img src="images/fashion1.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>라운지 로브_Smile We Love</h3>
+                  <p>여유로운 핏과 뛰어난 신축성으로 편안한 착용감</p>
+                  <p class="price"><span>119,000원</span>99,900원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/fashion2.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>스마일 위 러브 플랫폼 슬리퍼</h3>
+                  <p>발에 착- 감기는 듯한 착화감</p>
+                  <p class="price"><span>52,000원</span>39,000원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/fashion3.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>피크닉백 - Smile Garden</h3>
+                  <p>환경을 생각하는 작은 실천의 시작!</p>
+                  <p class="price"><span>12,800원</span>12,100원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/fashion4.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>코튼 파우치 - Smile We Love</h3>
+                  <p>유용하게 활용가능한 코튼 파우치</p>
+                  <p class="price">9,800원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/fashion5.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>자수양말 - Smile We Love</h3>
+                  <p>귀여운 자수와 컬러포인트을 더한 패션 아이템</p>
+                  <p class="price"><span>7,900원</span>5,900원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/fashion6.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>타포린백 - Rainbow Crush Smile</h3>
+                  <p>가볍고 내구성이 뛰어난 타포린 백</p>
+                  <p class="price">6,900원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/fashion8.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>라운지 로브 - Don't Panic</h3>
+                  <p>우리집의 분위기를 살려주는 이 녀석!</p>
+                  <p class="price"><span>199,000원</span>99,900원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/fashion7.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>실리콘참(S) - 6종 SET</h3>
+                  <p>귀여운 실리콘참 S사이즈 6개가 세트로 구성</p>
+                  <p class="price"><span>21,000원</span>19,900원</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="tech" class="tab_content tab04">
+        <div class="con_wrap swiper-container">
+          <div class="swiper-button-prev tech">
+            <i class="fa-solid fa-chevron-left prev"></i>
+          </div>
+          <div class="swiper-button-next tech">
+            <i class="fa-solid fa-chevron-right next"></i>
+          </div>
+          <div class="tab swiper-wrapper">
+            <div class="prd swiper-slide">
+              <img src="images/tech1.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>포켓 노트북파우치 - Green</h3>
+                  <p>모든 포켓 모두 다른 컬러로 포인트 UP</p>
+                  <p class="price"><span>49,800원</span>39,800원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/tech2.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>말랑 무선마우스&패드 SET</h3>
+                  <p>위글위글만의 컬러를 담은 트렌디하고 유니크한 마우스</p>
+                  <p class="price"><span>25,000원</span>23,500원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/tech3.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>투명케이스 - Sticker Pack</h3>
+                  <p>귀엽고 유니크한 케이스를 끼고 거울샷찍어야지!</p>
+                  <p class="price"><span>23,900원</span>17,200원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/tech4.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>갤럭시Z플립 투명케이스</h3>
+                  <p>귀엽고 유니크한 케이스를 끼고 거울샷찍어야지!</p>
+                  <p class="price"><span>23,800원</span>17,200원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/tech5.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>비즈 스트랩 - Mixed Color</h3>
+                  <p>위트있는 Y2K 감성을 담아낸 비즈 스트랩</p>
+                  <p class="price"><span>12,800원</span>10,800원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/tech6.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>실리콘 폰 스트랩 - Teddy Bear</h3>
+                  <p>어떤 자세에도 편안한 그립감</p>
+                  <p class="price"><span>14,800원</span>13,300원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/tech7.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>비즈 스트랩 - Black&White</h3>
+                  <p>위트있는 Y2K 감성을 담아낸 비즈 스트랩</p>
+                  <p class="price"><span>12,800원</span>10,800원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/tech2.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>말랑 무선마우스&패드 SET</h3>
+                  <p>위글위글만의 컬러를 담은 트렌디하고 유니크한 마우스</p>
+                  <p class="price"><span>25,000원</span>23,500원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/tech4.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>갤럭시Z플립 투명케이스</h3>
+                  <p>귀엽고 유니크한 케이스를 끼고 거울샷찍어야지!</p>
+                  <p class="price"><span>23,800원</span>17,200원</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="pet" class="tab_content tab05">
+        <div class="con_wrap swiper-container">
+          <div class="swiper-button-prev pet">
+            <i class="fa-solid fa-chevron-left prev"></i>
+          </div>
+          <div class="swiper-button-next pet">
+            <i class="fa-solid fa-chevron-right next"></i>
+          </div>
+          <div class="tab swiper-wrapper">
+            <div class="prd swiper-slide">
+              <img src="images/pet1.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>반려동물 방석</h3>
+                  <p>소중한 아이들에게 아늑한 장소를 선물하세요</p>
+                  <p class="price"><span>44,800원</span>35,800원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/pet2.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>반려동물 방석 침대</h3>
+                  <p>레트로카 타고 꿈나라로 떠나요!</p>
+                  <p class="price"><span>129,000원</span>99,000원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/pet3.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>야간산책 LED펜던트 - Wiggle Bear</h3>
+                  <p>반려동물과의 안전한 산책을 위해</p>
+                  <p class="price"><span>14,800원</span>13,300원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/pet4.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>노즈워크 장난감 - Smile We Love</h3>
+                  <p>바스락!바스락! 호기심 뿜뿜</p>
+                  <p class="price"><span>29,800원</span>23,800원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/pet5.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>라텍스 해피토이 세트</h3>
+                  <p>삑삑이가 내장되어 반련견의 호기심을 자극</p>
+                  <p class="price"><span>19,900원</span>15,900원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/pet6.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>캣 롱 낚시대 - Smile We Love</h3>
+                  <p>방울과 필름지로 놀이 시간동안 시선 집중!</p>
+                  <p class="price"><span>15,800원</span>12,700원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/pet7.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>노즈워크 토이 세트 - Fruits</h3>
+                  <p>삑삑이,바스락 소리가 호기심을 자극!!</p>
+                  <p class="price"><span>42,800원</span>39,800원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/pet8.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>펫 해피 쿠션 - Space Trip</h3>
+                  <p>반려동물의 편안한 후식을 위한 부드러운 극세사 소재</p>
+                  <p class="price"><span>99,000원</span>79,200원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/pet9.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>페스룸X위글위글 급체방지식기</h3>
+                  <p>급체 및 소화기 질환 예방과 체중조절에 도움</p>
+                  <p class="price"><span>15,900원</span>14,500원</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="collabo" class="tab_content tab06">
+        <div class="con_wrap swiper-container">
+          <div class="swiper-button-prev collabo">
+            <i class="fa-solid fa-chevron-left prev"></i>
+          </div>
+          <div class="swiper-button-next collabo">
+            <i class="fa-solid fa-chevron-right next"></i>
+          </div>
+          <div class="tab swiper-wrapper">
+            <div class="prd swiper-slide">
+              <img src="images/collabo1.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>벨리곰X위글위글 쿠션담요</h3>
+                  <p>Bellygom과의 귀여운collabo</p>
+                  <p class="price"><span>42,800원</span>35,000원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/collabo2.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>락앤락 메트로 텀블러 위글위글 에디션</h3>
+                  <p>한손에 쏙 들어오는 그립 커브 형태를 통해 휴대가 편리</p>
+                  <p class="price"><span>33,000원</span>29,700원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/collabo3.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>테이블 머그 위글위글 에디션</h3>
+                  <p>테이블에 두고 사용하기 좋은 손잡이 텀블러</p>
+                  <p class="price"><span>28,000원</span>25,200원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/collabo4.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>바디쿠션 - Wiggle Bear</h3>
+                  <p>등을 기대거나 안고 있기 좋은 크기의 쿠션</p>
+                  <p class="price"><span>26,900원</span>25,500원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/collabo5.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>글라스락X위글위글 유리컵2개 SET</h3>
+                  <p>편안한 그입감을 느낄 수 있습니다</p>
+                  <p class="price"><span>17,800원</span>16,900원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/collabo6.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>패딩거실화 - Wiggle Bear</h3>
+                  <p>발을 따뜻하게 감싸주는 패딩슬리퍼</p>
+                  <p class="price">14,900원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/collabo7.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>패딩거실화 - Smile We Love</h3>
+                  <p>발을 따뜻하게 감싸주는 패딩슬리퍼</p>
+                  <p class="price">14,900원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/collabo1.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>벨리곰X위글위글 쿠션담요</h3>
+                  <p>Bellygom과의 귀여운collabo</p>
+                  <p class="price"><span>42,800원</span>35,000원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/collabo2.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>락앤락 메트로 텀블러 위글위글 에디션</h3>
+                  <p>한손에 쏙 들어오는 그립 커브 형태를 통해 휴대가 편리</p>
+                  <p class="price"><span>33,000원</span>29,700원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/collabo3.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>테이블 머그 위글위글 에디션</h3>
+                  <p>테이블에 두고 사용하기 좋은 손잡이 텀블러</p>
+                  <p class="price"><span>28,000원</span>25,200원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/collabo4.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>바디쿠션 - Wiggle Bear</h3>
+                  <p>등을 기대거나 안고 있기 좋은 크기의 쿠션</p>
+                  <p class="price"><span>26,900원</span>25,500원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/collabo5.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>글라스락X위글위글 유리컵2개 SET</h3>
+                  <p>편안한 그입감을 느낄 수 있습니다</p>
+                  <p class="price"><span>17,800원</span>16,900원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/collabo6.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>패딩거실화 - Wiggle Bear</h3>
+                  <p>발을 따뜻하게 감싸주는 패딩슬리퍼</p>
+                  <p class="price">14,900원</p>
+                </a>
+              </div>
+            </div>
+            <div class="prd swiper-slide">
+              <img src="images/collabo7.jpeg" alt="">
+              <div class="prd_txt">
+                <a href="" class="prd_name">
+                  <h3>패딩거실화 - Smile We Love</h3>
+                  <p>발을 따뜻하게 감싸주는 패딩슬리퍼</p>
+                  <p class="price">14,900원</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="sec_button"><a href="">View more</a></button>
+  </section>
+
+  <section class="banner03 sec02">
+    <figure class="banner03_img">
+      <div class="txt_wrap">
+        <h2>wiggle wiggle <br> RECOMMENDED ITEM</h2>
+        <p>
+          Big happiness that starts <br> with small changes. <br>
+          Add color to your daily life.
+        </p>
+      </div>
+    </figure>
+  </section>
+  <section class="recommended sec02">
+    <div class="recommended_wrap swiper-container">
+      <ul class="recommended_list swiper-wrapper">
+        <li class="recommended_list_item swiper-slide">
+          <div class="recommended_top_area">
+            <img src="images/recommended1.jpg" alt="">
+            <div class="txt_box">
+              <h3>Let's go on a picnic!</h3>
+              <p>위글위글과 함께 즐거운 피크닉 즐기러 가자!</p>
+            </div>
+          </div>
+          <ul class="recommended_prd_list">
+            <li class="prd_box">
+              <a href="">
+                <div class="img_box">
+                  <img src="images/recommended_prd1.jpg" alt="">
+
+                </div>
+                <div class="txt_box">
+                  <h3>레디백 - Wiggle Bear</h3>
+                  <p>피크닉 용품을 안전하개 수납하는데 귀엽기까지?!</p>
+                  <p class="price">32,000원</p>
+                </div>
+              </a>
+              <a href="">
+                <div class="img_box">
+                  <img src="images/recommended_prd2.jpg" alt="">
+                </div>
+                <div class="txt_box">
+                  <h3>보냉백(L) - Smile We Love</h3>
+                  <p>도톰한 보강재로 보냉 효과와 외부충격에 안전</p>
+                  <p class="price"><span>21,800원</span>18,500원</p>
+                </div>
+              </a>
+              <a href="">
+                <div class="img_box">
+                  <img src="images/recommended_prd3.jpg" alt="">
+                </div>
+                <div class="txt_box">
+                  <h3>피크닉매트 - Smile we Love</h3>
+                  <p>유니크한 디자인에 기능을 더한 피크닉 매트</p>
+                  <p class="price"><span>29,800원</span>26,800원</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <button type="button" class="sec_button"><a href="#">View more</a></button>
+        </li>
+        <li class="recommended_list_item swiper-slide">
+          <div class="recommended_top_area">
+            <img src="images/recommended2.jpg" alt="">
+            <div class="txt_box">
+              <h3>Do you want to come to the party?</h3>
+              <p>파티의 분위기를 한층더 이끌어주는 '잇'아이템!</p>
+            </div>
+          </div>
+          <ul class="recommended_prd_list">
+            <li class="prd_box">
+              <a href="">
+                <div class="img_box">
+                  <img src="images/party2.jpeg" alt="">
+                </div>
+                <div class="txt_box">
+                  <h3>펫 파티 세트 - Party time</h3>
+                  <p>반려친구들도 파티에 참석하라구</p>
+                  <p class="price"><span>24,900원</span>21,400원</p>
+                </div>
+              </a>
+            </li>
+            <li class="prd_box">
+              <a href="">
+                <div class="img_box">
+                  <img src="images/party3.jpeg" alt="">
+                </div>
+                <div class="txt_box">
+                  <h3>리유저블 파티컵 세트 - Smile We Love</h3>
+                  <p>야외에서도 파티를 즐길 수 있다고?</p>
+                  <p class="price"><span>14,900원</span>13,400원</p>
+                </div>
+              </a>
+            </li>
+            <li class="prd_box">
+              <a href="">
+                <div class="img_box">
+                  <img src="images/party4.jpeg" alt="">
+                </div>
+                <div class="txt_box">
+                  <h3>해피 캔들 - Smile We Love_B</h3>
+                  <p>파티의 화룡점점은 귀여운 촛불! 다같이 촛불 끄자!!</p>
+                  <p class="price"><span>4,800원</span>3,900원</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <button type="button" class="sec_button"><a href="#">View more</a></button>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="protfolo sec01">
+    <div class="tit_wrap">
+      <span></span>
+      <div class="txt">
+        <div class="logo">wiggle wiggle</div>
+        <h3>PORTFOLO</h3>
+      </div>
+      <span></span>
+    </div>
+    <div class="txt_box">
+      <p>
+        Wiggle Wiggle doesn’t stop trying fresh things to fill the ordinary life with fun. <br>
+        <span>
+          We work with companies in various fields to create things that never existed in the world.
+        </span>
+      </p>
+    </div>
+    <div class="protfolo_wrap">
+      <div class="protfolo_con">
+        <div class="protfolo_left con">
+          <div id="left_up" class="content con_up swiper-container">
+            <div class="swiper-wrapper">
+              <div class="content_box swiper-slide">
+                <figure class="img_box">
+                  <img src="images/protfolo_left_con_1-1.jpg" alt="">
+                  <img src="images/protfolo_left_con_1-2.jpg" alt="">
+                </figure>
+                <div class="txt_box" style="background-color: #ffba00;">
+                  <div class="text">
+                    <div class="logo">wiggle wiggle</div>
+                    <p>with 1 hotels</p>
+                  </div>
+                </div>
+              </div>
+              <div class="content_box swiper-slide">
+                <figure class="img_box">
+                  <img src="images/kobea1.jpg" alt="">
+                  <img src="images/kobea2.jpg" alt="">
+                </figure>
+                <div class="txt_box" style="background-color: #304C17;">
+                  <div class="text">
+                    <div class="logo">wiggle wiggle</div>
+                    <p>
+                      with 코베아
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="content_box swiper-slide">
+                <figure class="img_box">
+                  <img src="images/baskin-robbins-4.jpg" alt="">
+                  <img src="images/baskin.jpg" alt="">
+                </figure>
+                <div class="txt_box" style="background-color: #6CBBCE;">
+                  <div class="text">
+                    <div class="logo">wiggle wiggle</div>
+                    <p>
+                      with 베스킨라빈스
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="content_box swiper-slide">
+                <figure class="img_box">
+                  <img src="images/New-balance-3.jpg" alt="">
+                  <img src="images/New-balance-1.jpg" alt="">
+                </figure>
+                <div class="txt_box" style="background-color: #b38cf4;">
+                  <div class="text">
+                    <div class="logo">wiggle wiggle</div>
+                    <p>
+                      with Newbalance
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="left_down" class="content con_down swiper-container">
+            <div class="swiper-wrapper">
+              <div class="content_box swiper-slide">
+                <div class="txt_box" style="background-color: #0690C0;">
+                  <div class="text">
+                    <div class="logo">wiggle wiggle</div>
+                    <p>
+                      with LG 유플러스
+                    </p>
+                  </div>
+                </div>
+                <figure class="img_box">
+                  <img src="images/lg-1.jpg" alt="">
+                  <img src="images/protfolo_left_con_2-2.jpg" alt="">
+                </figure>
+              </div>
+              <div class="content_box swiper-slide">
+                <div class="txt_box" style="background-color:#FD4902;">
+                  <div class="text">
+                    <div class="logo">wiggle wiggle</div>
+                    <p>
+                      with E-MART22FW
+                    </p>
+                  </div>
+                </div>
+                <figure class="img_box">
+                  <img src="images/protfolo_left_con_2-3.jpg" alt="">
+                  <img src="images/e-mart2.jpeg" alt="">
+                </figure>
+              </div>
+              <div class="content_box swiper-slide">
+                <div class="txt_box" style="background-color: #FDC632;">
+                  <div class="text">
+                    <div class="logo">wiggle wiggle</div>
+                    <p>
+                      with 종근당 락토덤
+                    </p>
+                  </div>
+                </div>
+                <figure class="img_box">
+                  <img src="images/protfolo_left3-2.jpeg" alt="">
+                  <img src="images/protfolo_left3-1.jpeg" alt="">
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="right" class="protfolo_right con swiper-container">
+          <div class="swiper-wrapper">
+            <div class="content swiper-slide">
+              <img src="images/protfolo_right4.jpeg" alt="">
+              <div class="txt_box"></div>
+              <div class="text">
+                <div class="logo">wiggle wiggle</div>
+                <p>
+                  with E-MART 22SS
+                </p>
+              </div>
+            </div>
+            <div class="content swiper-slide">
+              <img src="images/001.jpg" alt="">
+              <div class="txt_box"></div>
+              <div class="text">
+                <div class="logo">wiggle wiggle</div>
+                <p>
+                  with 에버랜드
+                </p>
+              </div>
+            </div>
+            <div class="content swiper-slide">
+              <img src="images/frotfolo_right3.jpg" alt="">
+              <div class="txt_box"></div>
+              <div class="text">
+                <span></span>
+                <div class="logo">wiggle wiggle</div>
+                <p>
+                  with Bellygam
+                </p>
+              </div>
+            </div>
+            <div class="content swiper-slide">
+              <img src="images/1-1.jpg" alt="">
+              <div class="txt_box"></div>
+              <div class="text">
+                <span></span>
+                <div class="logo">wiggle wiggle</div>
+                <p>
+                  with KABREW
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="banner02 sec02">
+    <figure class="banner02_img .swiper-container">
+      <div class="txt_wrap">
+        <h2>wiggle wiggle FASHION</h2>
+        <h4>Try minimum, show maximum</h4>
+        <p>작은 변화에서 시작되는 커다란 행복,<br>
+          평범한 일상에 더하는 컬러 포인트</p>
+      </div>
+      <div class="img_wrap swiper-wrapper">
+        <div class="prd swiper-slide">
+          <img src="images/banner_f_1.png" alt="">
+        </div>
+        <div class="prd swiper-slide">
+          <img src="images/banner_f_2.png" alt="">
+        </div>
+        <div class="prd swiper-slide">
+          <img src="images/banner_f_3.png" alt="">
+        </div>
+        <div class="prd swiper-slide">
+          <img src="images/banner_f_4.png" alt="">
+        </div>
+      </div>
+    </figure>
+  </section>
+  <section class="instagram sec01">
+    <div class="tit_wrap">
+      <div class="txt">
+        <div class="logo">wiggle wiggle</div>
+        <h3>STYLE on Instagram</h3>
+      </div>
+    </div>
+    <div class="instagram_wrap swiper-container">
+      <div class="swiper-wrapper">
+        <div class="prd swiper-slide">
+          <img src="images/insta1.jpg" alt="">
+          <div class="txt_box">
+            <a href="">@moo_n</a>
+          </div>
+        </div>
+        <div class="prd swiper-slide">
+          <img src="images/insta2.jpg" alt="">
+          <div class="txt_box">
+            <a href="">@moo_n</a>
+          </div>
+        </div>
+        <div class="prd swiper-slide">
+          <img src="images/insta3.jpeg" alt="">
+          <div class="txt_box">
+            <a href="">@moo_n</a>
+          </div>
+        </div>
+        <div class="prd swiper-slide">
+          <img src="images/insta4.jpg" alt="">
+          <div class="txt_box">
+            <a href="">@moo_n</a>
+          </div>
+        </div>
+        <div class="prd swiper-slide">
+          <img src="images/insat5.jpg" alt="">
+          <div class="txt_box">
+            <a href="">@moo_n</a>
+          </div>
+        </div>
+        <div class="prd swiper-slide">
+          <img src="images/insta6.jpg" alt="">
+          <div class="txt_box">
+            <a href="">@moo_n</a>
+          </div>
+        </div>
+        <div class="prd swiper-slide">
+          <img src="images/insta7.jpeg" alt="">
+          <div class="txt_box">
+            <a href="">@moo_n</a>
+          </div>
+        </div>
+        <div class="prd swiper-slide">
+          <img src="images/insta8.jpeg" alt="">
+          <div class="txt_box">
+            <a href="">@moo_n</a>
+          </div>
+        </div>
+        <div class="prd swiper-slide">
+          <img src="images/insta9.jpg" alt="">
+          <div class="txt_box">
+            <a href="">@moo_n</a>
+          </div>
+        </div>
+        <div class="prd swiper-slide">
+          <img src="images/insta10.jpg" alt="">
+          <div class="txt_box">
+            <a href="">@moo_n</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer_wrap">
+      <div class="f_logo">
+        <img src="images/common/logo.png" alt="">
+        <div class="footer_sns mobile">
+          <a href=""><img src="images/common/instagram.png" alt=""></a>
+        </div>
+      </div>
+      <div class="footer_box left">
+        <div class="info">
+          <ul class="guide">
+            <li><a href="#">이용안내</a></li>
+            <li>|</li>
+            <li><a href="#">반품 및 환불 규정</a></li>
+            <li>|</li>
+            <li><a href="#">자주 묻는 질문</a></li>
+            <li>|</li>
+            <li><a href="#">이용약관</a></li>
+            <li>|</li>
+            <li><a href="#">개인정보처리방침</a></li>
+          </ul>
+          <p>Corporate Name. 주식회사 아트쉐어</p>
+          <p>Owner. 모성현</p>
+          <p>Business License. 201-86-38817</p>
+          <p style="margin-bottom: 20px;">E-commerce Registration. 2022-서울강남-02241</p>
+          <p>Phone. 1533-8266(Korean only)</p>
+          <p>Contact Mail. biz@artshare.kr</p>
+          <p style="margin-bottom: 20px;">Address 서울특별시 강남구 테헤란로44길 8 (역삼동) 4층</p>
+          <p>Personal Information Manager 오정현</p>
+          <p>(privacy@artshare.kr)</p>
+        </div>
+      </div>
+      <div class="footer_box right">
+        <div class="cs_center">
+          <h4>CS Center</h4>
+          <p>1533 - 8266</p>
+          <p>9:30AM - 17:00PM</p>
+          <p>Sat / Sun / Holiday CLOSED</p>
+        </div>
+        <div class="social_wrap">
+          <h4>Social</h4>
+          <p>고객님은 안전거래를 위해 결제시 저희 쇼핑몰에서
+            가입한 구매안전 서비스를 이용하실 수 있습니다.</p>
+          <div class="social">
+            <a href=""><img src="images/common/pg_kg.png" alt=""></a>
+            <a href=""><img src="images/common/imgIbkMark.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer_sns">
+        <a href=""><img src="images/common/instagram.png" alt=""></a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/common.js"></script>
+  <script src="js/maincontent.js"></script>
+  <script src="js/recommended.js"></script>
+  <script src="js/newItem.js"></script>
+  <script src="js/bestitem.js"></script>
+  <script src="js/protfolo.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
